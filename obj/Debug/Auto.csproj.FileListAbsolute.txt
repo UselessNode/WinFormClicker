@@ -1,0 +1,10 @@
+d:\users\is12876\Desktop\Auto\Auto\bin\Debug\Auto.exe.config
+d:\users\is12876\Desktop\Auto\Auto\bin\Debug\Auto.exe
+d:\users\is12876\Desktop\Auto\Auto\bin\Debug\Auto.pdb
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.csproj.AssemblyReference.cache
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.Form1.resources
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.Properties.Resources.resources
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.csproj.GenerateResource.cache
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.csproj.CoreCompileInputs.cache
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.exe
+d:\users\is12876\Desktop\Auto\Auto\obj\Debug\Auto.pdb
