@@ -1,17 +1,9 @@
-﻿
-namespace Auto
+﻿namespace Auto
 {
     partial class Form1
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,220 +13,206 @@ namespace Auto
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
-
-        /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.TextBoxX = new System.Windows.Forms.TextBox();
-            this.TextBoxY = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.buttonPosition = new System.Windows.Forms.Button();
+            this.labelPosition = new System.Windows.Forms.Label();
+            this.numericUpDownClicks = new System.Windows.Forms.NumericUpDown();
+            this.trackBarClicks = new System.Windows.Forms.TrackBar();
+            this.labelClicks = new System.Windows.Forms.Label();
+            this.numericUpDownInterval = new System.Windows.Forms.NumericUpDown();
+            this.trackBarInterval = new System.Windows.Forms.TrackBar();
+            this.labelInterval = new System.Windows.Forms.Label();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.labelClickCount = new System.Windows.Forms.Label();
+            this.labelClicksRemaining = new System.Windows.Forms.Label();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownClicks)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarClicks)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownInterval)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarInterval)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonPosition
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Рисовать";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonPosition.Location = new System.Drawing.Point(12, 12);
+            this.buttonPosition.Name = "buttonPosition";
+            this.buttonPosition.Size = new System.Drawing.Size(150, 30);
+            this.buttonPosition.TabIndex = 0;
+            this.buttonPosition.Text = "Выбрать позицию";
+            this.buttonPosition.UseVisualStyleBackColor = true;
+            this.buttonPosition.Click += new System.EventHandler(this.buttonPosition_Click);
             // 
-            // label1
+            // labelPosition
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Clicks:";
+            this.labelPosition.AutoSize = true;
+            this.labelPosition.Location = new System.Drawing.Point(168, 19);
+            this.labelPosition.Name = "labelPosition";
+            this.labelPosition.Size = new System.Drawing.Size(51, 13);
+            this.labelPosition.TabIndex = 1;
+            this.labelPosition.Text = "X: 0, Y: 0";
             // 
-            // label2
+            // numericUpDownClicks
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 51);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 64);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 80);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(349, 23);
-            this.progressBar1.TabIndex = 4;
-            this.progressBar1.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(93, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Замерять";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(174, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Кликер";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // TextBoxX
-            // 
-            this.TextBoxX.Location = new System.Drawing.Point(35, 109);
-            this.TextBoxX.Name = "TextBoxX";
-            this.TextBoxX.Size = new System.Drawing.Size(63, 20);
-            this.TextBoxX.TabIndex = 7;
-            // 
-            // TextBoxY
-            // 
-            this.TextBoxY.Location = new System.Drawing.Point(35, 135);
-            this.TextBoxY.Name = "TextBoxY";
-            this.TextBoxY.Size = new System.Drawing.Size(63, 20);
-            this.TextBoxY.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 112);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "X:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 138);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(17, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Y:";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(93, 41);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(186, 17);
-            this.checkBox1.TabIndex = 9;
-            this.checkBox1.Text = "Кординаты под курсором (Beta)";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(184, 109);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.numericUpDownClicks.Location = new System.Drawing.Point(12, 60);
+            this.numericUpDownClicks.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            10,
+            this.numericUpDownClicks.Minimum = new decimal(new int[] {
+            1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(65, 20);
-            this.numericUpDown1.TabIndex = 10;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            10,
+            this.numericUpDownClicks.Name = "numericUpDownClicks";
+            this.numericUpDownClicks.Size = new System.Drawing.Size(80, 20);
+            this.numericUpDownClicks.TabIndex = 2;
+            this.numericUpDownClicks.Value = new decimal(new int[] {
+            1,
             0,
             0,
             0});
             // 
-            // label6
+            // trackBarClicks
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(104, 112);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Сколько раз:";
+            this.trackBarClicks.Location = new System.Drawing.Point(98, 60);
+            this.trackBarClicks.Maximum = 1000;
+            this.trackBarClicks.Minimum = 1;
+            this.trackBarClicks.Name = "trackBarClicks";
+            this.trackBarClicks.Size = new System.Drawing.Size(200, 45);
+            this.trackBarClicks.TabIndex = 3;
+            this.trackBarClicks.Value = 1;
+            // 
+            // labelClicks
+            // 
+            this.labelClicks.AutoSize = true;
+            this.labelClicks.Location = new System.Drawing.Point(12, 44);
+            this.labelClicks.Name = "labelClicks";
+            this.labelClicks.Size = new System.Drawing.Size(105, 13);
+            this.labelClicks.TabIndex = 4;
+            this.labelClicks.Text = "Количество кликов";
+            // 
+            // numericUpDownInterval
+            // 
+            this.numericUpDownInterval.Location = new System.Drawing.Point(12, 110);
+            this.numericUpDownInterval.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDownInterval.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownInterval.Name = "numericUpDownInterval";
+            this.numericUpDownInterval.Size = new System.Drawing.Size(80, 20);
+            this.numericUpDownInterval.TabIndex = 5;
+            this.numericUpDownInterval.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            // 
+            // trackBarInterval
+            // 
+            this.trackBarInterval.Location = new System.Drawing.Point(98, 110);
+            this.trackBarInterval.Maximum = 1000;
+            this.trackBarInterval.Minimum = 1;
+            this.trackBarInterval.Name = "trackBarInterval";
+            this.trackBarInterval.Size = new System.Drawing.Size(200, 45);
+            this.trackBarInterval.TabIndex = 6;
+            this.trackBarInterval.Value = 100;
+            // 
+            // labelInterval
+            // 
+            this.labelInterval.AutoSize = true;
+            this.labelInterval.Location = new System.Drawing.Point(12, 94);
+            this.labelInterval.Name = "labelInterval";
+            this.labelInterval.Size = new System.Drawing.Size(79, 13);
+            this.labelInterval.TabIndex = 7;
+            this.labelInterval.Text = "Интервал (мс)";
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.Location = new System.Drawing.Point(12, 160);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(150, 30);
+            this.buttonStart.TabIndex = 8;
+            this.buttonStart.Text = "Старт";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // labelClickCount
+            // 
+            this.labelClickCount.AutoSize = true;
+            this.labelClickCount.Location = new System.Drawing.Point(12, 200);
+            this.labelClickCount.Name = "labelClickCount";
+            this.labelClickCount.Size = new System.Drawing.Size(56, 13);
+            this.labelClickCount.TabIndex = 9;
+            this.labelClickCount.Text = "Кликов: 0";
+            // 
+            // labelClicksRemaining
+            // 
+            this.labelClicksRemaining.AutoSize = true;
+            this.labelClicksRemaining.Location = new System.Drawing.Point(12, 220);
+            this.labelClicksRemaining.Name = "labelClicksRemaining";
+            this.labelClicksRemaining.Size = new System.Drawing.Size(68, 13);
+            this.labelClicksRemaining.TabIndex = 10;
+            this.labelClicksRemaining.Text = "Осталось: 0";
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(12, 240);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(286, 23);
+            this.progressBar.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 450);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.TextBoxY);
-            this.Controls.Add(this.TextBoxX);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(310, 280);
+            this.Controls.Add(this.progressBar);
+            this.Controls.Add(this.labelClicksRemaining);
+            this.Controls.Add(this.labelClickCount);
+            this.Controls.Add(this.buttonStart);
+            this.Controls.Add(this.labelInterval);
+            this.Controls.Add(this.trackBarInterval);
+            this.Controls.Add(this.numericUpDownInterval);
+            this.Controls.Add(this.labelClicks);
+            this.Controls.Add(this.trackBarClicks);
+            this.Controls.Add(this.numericUpDownClicks);
+            this.Controls.Add(this.labelPosition);
+            this.Controls.Add(this.buttonPosition);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Авто Кликер";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Автокликер";
             this.TopMost = true;
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownClicks)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarClicks)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownInterval)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarInterval)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
-        #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox TextBoxX;
-        private System.Windows.Forms.TextBox TextBoxY;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button buttonPosition;
+        private System.Windows.Forms.Label labelPosition;
+        private System.Windows.Forms.NumericUpDown numericUpDownClicks;
+        private System.Windows.Forms.TrackBar trackBarClicks;
+        private System.Windows.Forms.Label labelClicks;
+        private System.Windows.Forms.NumericUpDown numericUpDownInterval;
+        private System.Windows.Forms.TrackBar trackBarInterval;
+        private System.Windows.Forms.Label labelInterval;
+        private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.Label labelClickCount;
+        private System.Windows.Forms.Label labelClicksRemaining;
+        private System.Windows.Forms.ProgressBar progressBar;
     }
 }
-
